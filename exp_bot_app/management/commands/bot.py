@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import datetime
 
 from django.core.management.base import BaseCommand
-from api_app.models import Remind, Profile, CurrentRemind
+from exp_bot_app.models import Remind, Profile, CurrentRemind
 
 from .telegram_client import TelegramClient
 import telebot

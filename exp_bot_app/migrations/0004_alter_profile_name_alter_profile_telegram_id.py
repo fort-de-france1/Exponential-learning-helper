@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api_app', '0003_remind_profile'),
+        ('exp_bot_app', '0003_remind_profile'),
     ]
 
     operations = [

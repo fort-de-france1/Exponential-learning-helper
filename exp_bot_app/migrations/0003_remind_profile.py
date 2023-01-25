@@ -7,13 +7,13 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api_app', '0002_profile'),
+        ('exp_bot_app', '0002_profile'),
     ]
 
     operations = [
         migrations.AddField(
             model_name='remind',
             name='profile',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='api_app.profile'),
+            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='exp_bot_app.profile'),
         ),
     ]

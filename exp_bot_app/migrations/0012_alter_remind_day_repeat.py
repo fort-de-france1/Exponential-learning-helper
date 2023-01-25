@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api_app', '0011_remind_day_repeat_alter_remind_date_create'),
+        ('exp_bot_app', '0011_remind_day_repeat_alter_remind_date_create'),
     ]
 
     operations = [

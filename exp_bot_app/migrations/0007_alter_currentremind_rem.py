@@ -7,13 +7,13 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api_app', '0006_remove_currentremind_telegram_id_and_more'),
+        ('exp_bot_app', '0006_remove_currentremind_telegram_id_and_more'),
     ]
 
     operations = [
         migrations.AlterField(
             model_name='currentremind',
             name='rem',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='api_app.remind'),
+            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='exp_bot_app.remind'),
         ),
     ]

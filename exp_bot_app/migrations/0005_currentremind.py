@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api_app', '0004_alter_profile_name_alter_profile_telegram_id'),
+        ('exp_bot_app', '0004_alter_profile_name_alter_profile_telegram_id'),
     ]
 
     operations = [
@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('telegram_id', models.PositiveIntegerField(unique=True)),
-                ('rem', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.PROTECT, to='api_app.remind')),
+                ('rem', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.PROTECT, to='exp_bot_app.remind')),
             ],
         ),
     ]

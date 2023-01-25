@@ -4,9 +4,9 @@ import time
 import datetime
 
 from django.core.management import BaseCommand
-from api_app.models import Remind
+from exp_bot_app.models import Remind
 
-from api_app.management.commands.telegram_client import TelegramClient
+from exp_bot_app.management.commands.telegram_client import TelegramClient
 from logging import getLogger, StreamHandler
 
 logger = getLogger(__name__)

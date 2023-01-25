@@ -1,6 +1,6 @@
 import pytest
 
-from api_app.management.commands.bot import formula
+from exp_bot_app.management.commands.bot import formula
 
 day = 2
 
